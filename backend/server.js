@@ -19,7 +19,7 @@ app.use("/api/admin", adminRouter)
 // localhost:4000/api/admin/add-doctor
 
 app.get("/" , (req,res)=> {
-    res.send("API working great")
+    res.send("API working greatlyyy")
 })
 
 app.listen(port , ()=>("Server started ", port))
